@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | FAQ accordion</title>
+  </head>
+  <body
+    class="px-4 flex min-h-[100svh] justify-center items-center bg-light-pink"
+  >
+    <img
+      class="sm:hidden -z-10 absolute top-0 w-full left-0"
+      src="/background-pattern-mobile.svg"
+      alt=""
+    />
+    <img
+      class="hidden -z-10 sm:block absolute top-0 w-full left-0"
+      src="/background-pattern-desktop.svg"
+      alt=""
+    />
+
+    <section class="max-w-screen-sm w-full space-y-5 rounded-xl bg-white p-6">
+      <h1 class="flex gap-4 items-center">
+        <img class="size-8" src="/icon-star.svg" alt="" />
+        <span class="text-4xl font-bold">FAQs</span>
+      </h1>
+
+      <div class="divide-y-2 divide-dark-purple/5">
+        <div class="space-y-4 py-6 last:pb-0 first:pt-0">
+          <div
+            class="flex gap-2 sm:gap-4 peer group active items-center justify-between"
+            data-accordion-button
+          >
+            <h2
+              class="font-semibold text-lg flex-1 leading-tight text-dark-purple hover:text-purple"
+            >
+              What is Frontend Mentor, and how will it help me?
+            </h2>
+            <span>
+              <img
+                class="group-[.active]:block hidden size-10"
+                src="/icon-minus.svg"
+                alt=""
+              />
+              <img
+                class="group-[.active]:hidden block size-10"
+                src="/icon-plus.svg"
+                alt=""
+              />
+            </span>
+          </div>
+          <div
+            class="max-h-0 peer-[.active]:max-h-40 transition-[max-height] overflow-hidden"
+          >
+            <p class="text-grayish-purple">
+              Frontend Mentor offers realistic coding challenges to help
+              developers improve their frontend coding skills with projects in
+              HTML, CSS, and JavaScript. It's suitable for all levels and ideal
+              for portfolio building.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-4 py-6 last:pb-0 first:pt-0">
+          <div
+            class="flex gap-2 sm:gap-4 peer group items-center justify-between"
+            data-accordion-button
+          >
+            <h2
+              class="font-semibold text-lg flex-1 leading-tight text-dark-purple group-hover:text-purple"
+            >
+              What is Frontend Mentor, and how will it help me?
+            </h2>
+            <span>
+              <img
+                class="group-[.active]:block hidden size-10"
+                src="/icon-minus.svg"
+                alt=""
+              />
+              <img
+                class="group-[.active]:hidden block size-10"
+                src="/icon-plus.svg"
+                alt=""
+              />
+            </span>
+          </div>
+          <div
+            class="max-h-0 peer-[.active]:max-h-40 transition-[max-height] overflow-hidden"
+          >
+            <p class="text-grayish-purple">
+              Frontend Mentor offers realistic coding challenges to help
+              developers improve their frontend coding skills with projects in
+              HTML, CSS, and JavaScript. It's suitable for all levels and ideal
+              for portfolio building.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-4 py-6 last:pb-0 first:pt-0">
+          <div
+            class="flex gap-2 sm:gap-4 peer group items-center justify-between"
+            data-accordion-button
+          >
+            <h2
+              class="font-semibold text-lg flex-1 leading-tight text-dark-purple hover:text-purple"
+            >
+              What is Frontend Mentor, and how will it help me?
+            </h2>
+            <span>
+              <img
+                class="group-[.active]:block hidden size-10"
+                src="/icon-minus.svg"
+                alt=""
+              />
+              <img
+                class="group-[.active]:hidden block size-10"
+                src="/icon-plus.svg"
+                alt=""
+              />
+            </span>
+          </div>
+          <div
+            class="max-h-0 peer-[.active]:max-h-40 transition-[max-height] overflow-hidden"
+          >
+            <p class="text-grayish-purple">
+              Frontend Mentor offers realistic coding challenges to help
+              developers improve their frontend coding skills with projects in
+              HTML, CSS, and JavaScript. It's suitable for all levels and ideal
+              for portfolio building.
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-4 py-6 last:pb-0 first:pt-0">
+          <div
+            class="flex gap-2 sm:gap-4 peer group items-center justify-between"
+            data-accordion-button
+          >
+            <h2
+              class="font-semibold text-lg flex-1 leading-tight text-dark-purple hover:text-purple"
+            >
+              What is Frontend Mentor, and how will it help me?
+            </h2>
+            <span>
+              <img
+                class="group-[.active]:block hidden size-10"
+                src="/icon-minus.svg"
+                alt=""
+              />
+              <img
+                class="group-[.active]:hidden block size-10"
+                src="/icon-plus.svg"
+                alt=""
+              />
+            </span>
+          </div>
+          <div
+            class="max-h-0 peer-[.active]:max-h-40 transition-[max-height] overflow-hidden"
+          >
+            <p class="text-grayish-purple">
+              Frontend Mentor offers realistic coding challenges to help
+              developers improve their frontend coding skills with projects in
+              HTML, CSS, and JavaScript. It's suitable for all levels and ideal
+              for portfolio building.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
